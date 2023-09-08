@@ -19,7 +19,7 @@
     "typecheck": "nx typecheck root",
     "pr": "nx run-many --targets=test:ci,build,typecheck --projects=root",
     "prepare": "npm run build",
-    "postinstall": "cp packages/react-table ../ && cp packages/table-core ../"
+    "postinstall": "cp -r packages/react-table ../ && cp -r packages/table-core ../"
   },
   "namespace": "@tanstack",
   "workspaces": [
