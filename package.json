@@ -1,5 +1,5 @@
 {
-  "name": "@tanstack/react-table",
+  "name": "@tanstack/table",
   "private": true,
   "repository": "https://github.com/tanstack/table.git",
   "scripts": {
@@ -18,7 +18,8 @@
     "cipublishforce": "CI=true npm run cipublish",
     "typecheck": "nx typecheck root",
     "pr": "nx run-many --targets=test:ci,build,typecheck --projects=root",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "postinstall": "cp packages/react-table ../ && cp packages/table-core ../"
   },
   "namespace": "@tanstack",
   "workspaces": [
