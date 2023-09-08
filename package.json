@@ -1,4 +1,5 @@
 {
+  "name": "react-table",
   "private": true,
   "repository": "https://github.com/tanstack/table.git",
   "scripts": {
