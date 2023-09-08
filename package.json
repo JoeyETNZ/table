@@ -1,5 +1,5 @@
 {
-  "name": "react-table",
+  "name": "@tanstack/react-table",
   "private": true,
   "repository": "https://github.com/tanstack/table.git",
   "scripts": {
